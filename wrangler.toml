@@ -1,0 +1,8 @@
+name = "pixo"
+compatibility_date = "2024-08-03"
+pages_build_output_dir = ".svelte-kit/cloudflare"
+
+[[d1_databases]]
+binding = "DB" # available in your Worker on env.DB
+database_name = "images"
+database_id = "86e78802-d295-4caf-9586-632cf977db19"
