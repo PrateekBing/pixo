@@ -73,10 +73,10 @@ h1 {
     {/each}
 </div> -->
 
-<div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+<div class="flex flex-row flex-wrap items-center justify-center min-h-screen gap-4">
     {#each images.slice().reverse() as image, index}
-        <div>
-            <img class="h-auto max-w-full rounded-lg" src={images[images.length - 1 - index].link}>
+        <div class="my-2">
+            <img alt="e" class="h-auto max-w-full rounded-lg" src={images[images.length - 1 - index].link}>
         </div>
     {/each}
 </div>
